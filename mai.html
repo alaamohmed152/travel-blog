@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid Layout Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">My Website</div>
+        <nav class="nav">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    
+    <div class="grid-container">
+        <aside class="sidebar">
+            <p>This sidebar spans two rows in the grid.</p>
+        </aside>
+        <main class="main-content">
+            <h1>Main Content</h1>
+            <p>This is the main content area. It uses three columns of the grid.</p>
+            <div class="nested-content">
+                <div class="nested">Nested 1</div>
+                <div class="nested">Nested 2</div>
+                <div class="nested">Nested 3</div>
+            </div>
+        </main>
+        <div class="extra-content">Extra Content 1</div>
+        <div class="extra-content">Extra Content 2</div>
+        <div class="extra-content">Extra Content 3</div>
+    </div>
+    
+    <footer class="footer">
+        <p>Footer spanning full width</p>
+    </footer>
+</body>
+</html>
